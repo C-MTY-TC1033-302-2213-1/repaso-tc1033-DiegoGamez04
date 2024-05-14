@@ -10,6 +10,7 @@
 //
 //  Created by Ma. Guadalupe Roque Díaz de León on 18/05/23.
 //
+//  Diego Alejandro Gamez Campos A01199125
 
 #include <iostream>
 #include <iomanip> // for std::setprecision()
