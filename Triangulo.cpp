@@ -30,6 +30,7 @@ Punto Triangulo::getVertice3(){
 //Metodos modificadores
 void Triangulo::setVertice1(Punto _v1){
     v1 = _v1;
+    _v1 = v2;
 }
 void Triangulo::setVertice3(Punto _v2){
     v2 = _v2;
@@ -37,7 +38,6 @@ void Triangulo::setVertice3(Punto _v2){
 void Triangulo::setVertice3(Punto _v3){
     v3 = _v3;
 }
-
 
 
 //Otros metodos

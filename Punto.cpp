@@ -1,3 +1,4 @@
+
 #include "Punto.hpp"
 
 // Constructores
@@ -11,13 +12,6 @@
         y = _y;
     }
 
-    // Metodos Modificadores - setters
-    void Punto::setX(double _x){ 
-        x = _x;
-    }
-    void Punto::setY(double _y){ 
-        y = _y;
-    }
 
     //Metodos de acceso - getters
     double Punto::getX(){
@@ -27,6 +21,16 @@
         return y;
      }
 
+
+    // Metodos Modificadores - setters
+    void Punto::setX(double _x){ 
+        x = _x;
+    }
+    void Punto::setY(double _y){ 
+        y = _y;
+    }
+
+    
     // Otros metodos
     double Punto::calculaDistancia(Punto p2){
         return sqrt( (p2.x - x) * (p2.x - x) + (p2.y - y) * (p2.y - y) );

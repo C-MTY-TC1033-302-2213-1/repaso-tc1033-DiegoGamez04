@@ -19,7 +19,7 @@ public:
 
     //Metodos modificadores
     void setVertice1(Punto _v1);
-    void setVertice3(Punto _v2);
+    void setVertice2(Punto _v2);
     void setVertice3(Punto _v3);
 
     //Otros metodos
